@@ -5,7 +5,7 @@ writted totally in lua, with support for a few nvim lua plugins
 
 ## Screenshots
 
-![01](./screenshots/01.png)
+![01](./.screenshots/01.png)
 
 ## External Plugin Support
 
