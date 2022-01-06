@@ -46,6 +46,12 @@ local pywal = require('pywal')
 pywal.setup()
 ```
 
+Or with vim script:
+
+```vim
+colorscheme pywal
+```
+
 > It will set automatically the `vim.opt.termguicolors` to true
 
 ## Activating lualine theme
