@@ -59,12 +59,13 @@ colorscheme pywal
 Place this in your lualine config:
 
 ```lua
-local lualine = require('lualine')
+local lualine == require('lualine')
+local pywal_theme = require('pywal.lualine.themes.pywal-nvim')
 
 lualine.setup {
   options = {
-    theme = 'pywal'
-  }
+    theme = pywal_theme,
+  },
 }
 ```
 

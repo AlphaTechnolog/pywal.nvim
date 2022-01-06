@@ -1,5 +1,5 @@
 local pywal = {}
-local core = require('pywal.colors')
+local core = require('pywal.core')
 
 local colors = core.get_colors()
 
