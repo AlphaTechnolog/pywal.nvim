@@ -13,7 +13,7 @@ M.highlights_base = function (colors)
     SpellRare = { guifg = colors.color6 },
     NormalNC = { guifg = colors.foreground, guibg = colors.background },
     Pmenu = { guifg = colors.foreground, guibg = colors.background },
-    PmenuSel = { guifg = colors.color7, guibg = colors.color4 },
+    PmenuSel = { guifg = colors.background, guibg = colors.color4 },
     WildMenu = { guifg = colors.color7, guibg = colors.color4 },
     CursorLineNr = { guifg = colors.color1 },
     Comment = { guifg = colors.color1 },
