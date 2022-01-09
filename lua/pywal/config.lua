@@ -19,7 +19,7 @@ M.highlights_base = function (colors)
     Comment = { guifg = colors.color1 },
     Folded = { guifg = colors.color4, guibg = colors.background },
     FoldColumn = { guifg = colors.color4, guibg = colors.background },
-    LineNr = { guifg = colors.color5, guibg = colors.background },
+    LineNr = { guifg = colors.color9, guibg = colors.background },
     FloatBorder = { guifg = colors.background, guibg = colors.background },
     Whitespace = { guifg = colors.background },
     VertSplit = { guifg = colors.background, guibg = colors.background },
@@ -207,7 +207,7 @@ M.highlights_base = function (colors)
     -- NvimTree
     NvimTreeNormal = { guifg = colors.foreground, guibg = colors.background },
     NvimTreeNormalNC = { guifg = colors.foreground, guibg = colors.background },
-    NvimTreeRootFolder = { guifg = colors.color7 },
+    NvimTreeRootFolder = { guifg = colors.color1 },
     NvimTreeGitDirty = { guifg = colors.color5 },
     NvimTreeGitNew = { guifg = colors.color4 },
     NvimTreeGitDeleted = { guifg = colors.color11 },
