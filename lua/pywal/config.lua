@@ -203,6 +203,7 @@ M.highlights_base = function (colors)
     -- Telescope
     TelescopeBorder = { guifg = colors.background, guibg = colors.background },
     TelescopeNormal = { guifg = colors.foreground, guibg = colors.background },
+    TelescopeSelection = { guifg = colors.background, guibg = colors.color1 },
 
     -- NvimTree
     NvimTreeNormal = { guifg = colors.foreground, guibg = colors.background },
@@ -215,6 +216,7 @@ M.highlights_base = function (colors)
     NvimTreeIndentMarker = { guifg = colors.foreground },
     NvimTreeImageFile = { guifg = colors.foreground },
     NvimTreeSymlink = { guifg = colors.color7 },
+    NvimTreeFolderIcon = { guifg = colors.color2, guibg = colors.background },
 
     -- LspSaga
     LspFloatWinNormal = { guibg = colors.background },
