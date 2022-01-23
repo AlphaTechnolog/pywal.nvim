@@ -23,6 +23,8 @@ It's a reimplementation of wal.vim but writted in lua, it is the best choice if 
 - Diff
 - Git signs
 - Git gutter
+- Lualine
+- Feline
 
 ## Installation
 
@@ -61,15 +63,38 @@ colorscheme pywal
 Place this in your lualine config:
 
 ```lua
-local lualine == require('lualine')
-local pywal_theme = require('pywal.lualine.themes.pywal-nvim')
+local lualine = require('lualine')
 
 lualine.setup {
   options = {
-    theme = pywal_theme,
+    theme = 'pywal-nvim',
   },
 }
 ```
+
+## Activating the feline theme
+
+You can put this to your config to activate the feline config:
+
+```lua
+local present, feline = pcall(require, 'feline')
+
+if not present then
+  return
+end
+
+local present, pywal_feline = pcall(require, 'pywal.feline')
+
+if not present then
+  return
+end
+
+feline.setup({
+  components = pywal_feline,
+})
+```
+
+Then you will see the feline bar working successfully
 
 ## Using the core to get the colors
 
