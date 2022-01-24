@@ -37,7 +37,7 @@ use { 'AlphaTechnolog/pywal.nvim', as = 'pywal' }
 Or with vim-plug:
 
 ```vim
-Plug 'AlphaTechnolog/pywal.nvim', as = 'pywal'
+Plug 'AlphaTechnolog/pywal.nvim', { 'as': 'pywal' }
 ```
 
 ## Active theme
