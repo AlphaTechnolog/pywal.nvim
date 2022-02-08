@@ -3,7 +3,9 @@ local M = {}
 M.highlights_base = function (colors)
   return {
     Normal = { guifg = colors.foreground, guibg = colors.background },
-    SignColumn = { guibg = colors.background },
+    StatusLineNC = { guibg = colors.background, guifg = colors.background },
+    StatusLine = { guibg = colors.background, guifg = colors.background },
+    SignColumn = { guibg = colors.background, guifg = colors.background },
     MsgArea = { guifg = colors.foreground, guibg = colors.background },
     ModeMsg = { guifg = colors.foreground, guibg = colors.background },
     MsgSeparator = { guifg = colors.foreground, guibg = colors.background },
@@ -11,7 +13,7 @@ M.highlights_base = function (colors)
     SpellCap = { guifg = colors.color6 },
     SpellLocal = { guifg = colors.color4 },
     SpellRare = { guifg = colors.color6 },
-    NormalNC = { guifg = colors.foreground, guibg = colors.background },
+    NormalNC = { guifg = colors.background, guibg = colors.background },
     Pmenu = { guifg = colors.foreground, guibg = colors.background },
     PmenuSel = { guifg = colors.background, guibg = colors.color4 },
     WildMenu = { guifg = colors.color7, guibg = colors.color4 },
@@ -207,7 +209,7 @@ M.highlights_base = function (colors)
 
     -- NvimTree
     NvimTreeNormal = { guifg = colors.foreground, guibg = colors.background },
-    NvimTreeNormalNC = { guifg = colors.foreground, guibg = colors.background },
+    NvimTreeNormalNC = { guifg = colors.background, guibg = colors.background },
     NvimTreeRootFolder = { guifg = colors.color1 },
     NvimTreeGitDirty = { guifg = colors.color5 },
     NvimTreeGitNew = { guifg = colors.color4 },
@@ -217,6 +219,7 @@ M.highlights_base = function (colors)
     NvimTreeImageFile = { guifg = colors.foreground },
     NvimTreeSymlink = { guifg = colors.color7 },
     NvimTreeFolderIcon = { guifg = colors.color2, guibg = colors.background },
+    NvimTreeStatusLineNC = { guibg = colors.background, guifg = colors.background },
 
     -- LspSaga
     LspFloatWinNormal = { guibg = colors.background },
