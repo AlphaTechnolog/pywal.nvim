@@ -13,7 +13,7 @@ M.highlights_base = function (colors)
     SpellCap = { guifg = colors.color6 },
     SpellLocal = { guifg = colors.color4 },
     SpellRare = { guifg = colors.color6 },
-    NormalNC = { guifg = colors.background, guibg = colors.background },
+    NormalNC = { guifg = colors.foreground, guibg = colors.background },
     Pmenu = { guifg = colors.foreground, guibg = colors.background },
     PmenuSel = { guifg = colors.background, guibg = colors.color4 },
     WildMenu = { guifg = colors.color7, guibg = colors.color4 },
@@ -207,9 +207,12 @@ M.highlights_base = function (colors)
     TelescopeNormal = { guifg = colors.foreground, guibg = colors.background },
     TelescopeSelection = { guifg = colors.background, guibg = colors.color1 },
 
+    -- Indent Blank Line
+    IndentBlanklineChar = { guifg = colors.color1, guibg = colors.background },
+
     -- NvimTree
     NvimTreeNormal = { guifg = colors.foreground, guibg = colors.background },
-    NvimTreeNormalNC = { guifg = colors.background, guibg = colors.background },
+    NvimTreeNormalNC = { guifg = colors.foreground, guibg = colors.background },
     NvimTreeRootFolder = { guifg = colors.color1 },
     NvimTreeGitDirty = { guifg = colors.color5 },
     NvimTreeGitNew = { guifg = colors.color4 },
