@@ -25,6 +25,7 @@ It's a reimplementation of wal.vim but writted in lua, it is the best choice if 
 - Git gutter
 - Lualine
 - Feline
+- Ident-BlankLine
 
 ## Installation
 
