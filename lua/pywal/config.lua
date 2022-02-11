@@ -204,7 +204,7 @@ M.highlights_base = function (colors)
     GitSignsDelete = { guifg = colors.color11 }, -- diff mode: Deleted line |diff.txt|
 
     -- Telescope
-    TelescopeBorder = { guifg = colors.background, guibg = colors.background },
+    TelescopeBorder = { guifg = colors.color1, guibg = colors.background },
     TelescopeNormal = { guifg = colors.foreground, guibg = colors.background },
     TelescopeSelection = { guifg = colors.background, guibg = colors.color1 },
 
