@@ -23,7 +23,7 @@ M.highlights_base = function (colors)
     FoldColumn = { guifg = colors.color4, guibg = colors.background },
     LineNr = { guifg = colors.color9, guibg = colors.background },
     FloatBorder = { guifg = colors.background, guibg = colors.background },
-    Whitespace = { guifg = colors.background },
+    Whitespace = { guifg = colors.color1 },
     VertSplit = { guifg = colors.background, guibg = colors.color1 },
     CursorLine = { guibg = colors.background },
     CursorColumn = { guibg = colors.background },
