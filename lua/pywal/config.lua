@@ -22,7 +22,7 @@ M.highlights_base = function (colors)
     Folded = { fg = colors.color4, bg = colors.background },
     FoldColumn = { fg = colors.color4, bg = colors.background },
     LineNr = { fg = colors.color9, bg = colors.background },
-    FloatBorder = { fg = colors.background, bg = colors.background },
+    FloatBorder = { fg = colors.foreground, bg = colors.background },
     Whitespace = { fg = colors.color1 },
     VertSplit = { fg = colors.background, bg = colors.color1 },
     CursorLine = { bg = colors.background },
@@ -227,7 +227,7 @@ M.highlights_base = function (colors)
 
     -- LspSaga
     LspFloatWinNormal = { bg = colors.background },
-    LspFloatWinBorder = { fg = colors.background },
+    LspFloatWinBorder = { fg = colors.foreground },
     LspSagaBorderTitle = { fg = colors.color7 },
     LspSagaHoverBorder = { fg = colors.color7 },
     LspSagaRenameBorder = { fg = colors.color4 },
